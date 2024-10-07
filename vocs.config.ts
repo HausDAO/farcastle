@@ -13,7 +13,7 @@ export default defineConfig({
       color: {
         background: {
           light: '#EAF8FF',
-          dark: '#17151F',
+          dark: '#341A34',
         },
       },
     },
