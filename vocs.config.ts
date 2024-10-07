@@ -2,7 +2,7 @@ import { defineConfig } from 'vocs';
 
 export default defineConfig({
   title: 'Farcastle',
-  logoUrl: '/images/dark-castle.svg',
+  logoUrl: '/images/alice-blue-castle.svg',
   description: 'Turn a Warpcast channel into a DAO',
   ogImageUrl: {
     '/': '/images/preview.png',
