@@ -1,0 +1,62 @@
+@font-face {
+  font-family: Fraktur;
+  src: url('/fonts/FetteUNZFraktur.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2 {
+  font-family: Fraktur;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #00b1cc;
+}
+
+h3 {
+  font-family: Fraktur;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #eaf8ff;
+}
+
+.vocs_Paragraph,
+.vocs_List,
+.vocs_List_ordered {
+  text-align: left;
+}
+
+.vocs_HomePage_button.vocs_Button_button.vocs_Link.vocs_Link_styleless {
+  background-color: #6deec0;
+  color: #000000;
+  border-radius: 0;
+  outline: none;
+  border: none;
+}
+
+.vocs_HomePage_button.vocs_Button_button.vocs_Link.vocs_Link_styleless:hover {
+  background-color: #000000;
+  color: #6deec0;
+  border-radius: 0;
+  outline: none;
+  border: none;
+}
+
+.image-container {
+  display: flex;
+  gap: 20px;
+}
+
+.image-container img {
+  width: 200px;
+  height: auto;
+}
+
+.image-container-large {
+  display: flex;
+  padding-top: 20px;
+}
+
+.image-container-large img {
+  width: 400px;
+  height: auto;
+}
