@@ -2,7 +2,8 @@ import { defineConfig } from 'vocs';
 
 export default defineConfig({
   title: 'Farcastle',
-  logoUrl: '/images/dark-castle.svg',
+  logoUrl: '/images/alice-blue-castle.svg',
+  topNav: [{ text: 'Docs', link: '/about' }],
   description: 'Turn a Warpcast channel into a DAO',
   ogImageUrl: {
     '/': '/images/preview.png',
@@ -13,7 +14,7 @@ export default defineConfig({
       color: {
         background: {
           light: '#EAF8FF',
-          dark: '#17151F',
+          dark: '#341A34',
         },
       },
     },
@@ -25,12 +26,26 @@ export default defineConfig({
   },
   sidebar: [
     {
-      text: 'Getting Started',
-      link: '/getting-started',
+      text: 'About',
+      link: '/about',
     },
     {
-      text: 'Example',
-      link: '/example',
+      text: 'Vision',
+      link: '/vision',
+    },
+    {
+      text: 'Values',
+      link: '/values',
+    },
+    {
+      text: 'DAO',
+      collapsed: true,
+      items: [
+        {
+          text: 'Roles',
+          link: '/dao/roles',
+        },
+      ],
     },
   ],
 });
