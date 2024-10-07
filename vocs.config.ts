@@ -20,7 +20,7 @@ export default defineConfig({
   },
   font: {
     default: {
-      google: 'Source Sans Pro',
+      google: 'Mulish',
     },
   },
   sidebar: [
