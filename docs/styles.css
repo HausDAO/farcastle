@@ -7,7 +7,7 @@
 
 h2 {
   font-family: Fraktur;
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 700;
   color: #00b1cc;
 }
@@ -26,16 +26,16 @@ h3 {
 }
 
 .vocs_HomePage_button.vocs_Button_button.vocs_Link.vocs_Link_styleless {
-  background-color: #6deec0;
-  color: #000000;
+  background-color: #00b1cc;
+  color: #341a34;
   border-radius: 0;
   outline: none;
   border: none;
 }
 
 .vocs_HomePage_button.vocs_Button_button.vocs_Link.vocs_Link_styleless:hover {
-  background-color: #000000;
-  color: #6deec0;
+  background-color: #341a34;
+  color: #00b1cc;
   border-radius: 0;
   outline: none;
   border: none;
