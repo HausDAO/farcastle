@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 @font-face {
   font-family: Fraktur;
   src: url('/fonts/FetteUNZFraktur.woff') format('woff');
@@ -5,18 +7,15 @@
   font-style: normal;
 }
 
-h2 {
+h2.logo {
   font-family: Fraktur;
   font-size: 5rem;
   font-weight: 700;
   color: #17151f;
 }
 
-h3 {
-  font-family: Fraktur;
-  font-size: 3rem;
-  font-weight: 700;
-  color: #eaf8ff;
+p {
+  font-family: 'Mulish';
 }
 
 .vocs_Paragraph,

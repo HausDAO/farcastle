@@ -3,7 +3,7 @@ import { defineConfig } from 'vocs';
 export default defineConfig({
   title: 'Farcastle',
   logoUrl: '/images/alice-blue-castle.svg',
-  topNav: [{ text: 'Docs', link: '/about' }],
+  topNav: [{ text: 'About', link: '/about' }],
   description: 'Turn a Warpcast channel into a DAO',
   ogImageUrl: {
     '/': '/images/preview.png',
@@ -21,13 +21,17 @@ export default defineConfig({
   },
   font: {
     default: {
-      google: 'Mulish',
+      google: 'VT323',
     },
   },
   sidebar: [
     {
       text: 'About',
       link: '/about',
+    },
+    {
+      text: 'Map',
+      link: '/map',
     },
     {
       text: 'Vision',
