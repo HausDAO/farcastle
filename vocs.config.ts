@@ -1,53 +1,53 @@
-import { defineConfig } from 'vocs';
+import { defineConfig } from "vocs";
 
 export default defineConfig({
-  title: 'Farcastle',
-  logoUrl: '/images/alice-blue-castle.svg',
-  topNav: [{ text: 'About', link: '/about' }],
-  description: 'Turn a Warpcast channel into a DAO',
+  title: "Farcastle",
+  logoUrl: "/images/alice-blue-castle.svg",
+  topNav: [{ text: "About", link: "/about" }],
+  description: "Turn a Warpcast channel into a DAO",
   ogImageUrl: {
-    '/': '/images/preview.png',
+    "/": "/images/preview.png",
   },
   theme: {
-    accentColor: '#00B1CC',
+    accentColor: "#00B1CC",
     variables: {
       color: {
         background: {
-          light: '#EAF8FF',
-          dark: '#341A34',
+          light: "#EAF8FF",
+          dark: "#341A34",
         },
       },
     },
   },
   font: {
     default: {
-      google: 'VT323',
+      google: "VT323",
     },
   },
   sidebar: [
     {
-      text: 'About',
-      link: '/about',
+      text: "About",
+      link: "/about",
     },
     {
-      text: 'Map',
-      link: '/map',
+      text: "Map",
+      link: "/map",
     },
     {
-      text: 'Vision',
-      link: '/vision',
+      text: "Vision",
+      link: "/vision",
     },
     {
-      text: 'Values',
-      link: '/values',
+      text: "Values",
+      link: "/values",
     },
     {
-      text: 'DAO',
+      text: "DAO",
       collapsed: true,
       items: [
         {
-          text: 'Roles',
-          link: '/dao/roles',
+          text: "Roles",
+          link: "/dao/roles",
         },
       ],
     },
