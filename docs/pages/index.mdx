@@ -3,43 +3,46 @@ layout: landing
 showLogo: false
 ---
 
-import { HomePage, Sponsors, Button } from "vocs/components";
+import { HomePage, Sponsors, Button } from 'vocs/components';
 
-import HomeCard from "../components/HomeCard";
+import HomeCard from '../components/HomeCard';
 
 <HomePage.Root>
 
 <h2 className="logo">Farcastle</h2>
-<img src="/images/raisin-black-castle.svg" width="300px" height="300px" />
+<img src="/images/alice-blue-castle.svg" width="300px" height="300px" />
 
 <p>
-  Lorem ipsum dolor sit amet consectetur adipiscing elit at elementum dictum
-  tempus volutpat, sollicitudin sem bibendum in tincidunt pharetra laoreet
-  sapien ullamcorper sed vel.
+  Farcastle transforms Warpcast channels into powerful DAOs. We bridge
+  communication and governamce protocols empowering communities to forge their
+  destinies. With ancient wisdom and modern tools, we unite brave souls in the
+  pursuit of shared goals.
 </p>
 
 <HomePage.Button href="https://warpcast.com/~/channel/farcastle">
-  Follow our Channel on Warpcast
+  Follow Our Channel on Warpcast
 </HomePage.Button>
-
-<Button href="https://warpcast.com/~/group/1_m9uF9he_GG5nzFhQfJfQ">
-  Contact us on Warpcast
-</Button>
 
 <div className="Home__card_container">
 
-<HomeCard title="this is a title" text="and this is some body text"></HomeCard>
 <HomeCard
-  title="this is another title"
-  text="and this is some body text"
+  title="Onboard Members"
+  text="Effortlessly welcome new allies into your community, fostering a sense of belonging and shared purpose."
 ></HomeCard>
-<HomeCard title="this is a title">
-  <p>with custom children</p>
-  <p>with custom children</p>
-  <p>with custom children</p>
-</HomeCard>
+<HomeCard
+  title="Raise Funds"
+  text="Unlock the power of collective resources by seamlessly raising funds for your initiatives."
+></HomeCard>
+<HomeCard
+  title="Make Decisions"
+  text="Empower your community to shape its destiny through collaborative decision making in the Warcast feed."
+></HomeCard>
 
 </div>
+
+<HomePage.Button href="https://warpcast.com/~/group/Ee6a2kyIUHhX-WQQrd0Vug">
+  Turn Your Channel Into a DAO
+</HomePage.Button>
 
 <Sponsors />
 
