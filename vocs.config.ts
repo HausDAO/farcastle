@@ -43,6 +43,10 @@ export default defineConfig({
       link: '/channels',
     },
     {
+      text: 'Groups',
+      link: '/groups',
+    },
+    {
       text: 'Accounts',
       link: '/accounts',
     },
