@@ -39,6 +39,18 @@ export default defineConfig({
       link: '/about',
     },
     {
+      text: 'Channels',
+      link: '/channels',
+    },
+    {
+      text: 'Groups',
+      link: '/groups',
+    },
+    {
+      text: 'Accounts',
+      link: '/accounts',
+    },
+    {
       text: 'Map',
       link: '/map',
     },
