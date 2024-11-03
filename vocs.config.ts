@@ -75,7 +75,7 @@ export default defineConfig({
     {
       text: "The Black Scrolls",
       collapsed: true,
-      link: "/guides/index",
+      link: "/guides",
       items: [
         {
           text: "Token Gating Channnels",
