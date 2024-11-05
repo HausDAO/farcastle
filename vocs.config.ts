@@ -63,6 +63,17 @@ export default defineConfig({
       link: '/values',
     },
     {
+      text: 'The Black Scrolls',
+      collapsed: false,
+      link: '/scrolls',
+      items: [
+        {
+          text: 'Token Gating Channnels',
+          link: '/scrolls/token-gating',
+        },
+      ],
+    },
+    {
       text: 'DAO',
       collapsed: true,
       items: [
