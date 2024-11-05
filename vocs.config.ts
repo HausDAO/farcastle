@@ -81,6 +81,14 @@ export default defineConfig({
           text: 'Roles',
           link: '/dao/roles',
         },
+        {
+          text: 'Needs',
+          link: '/dao/needs',
+        },
+        {
+          text: 'Quests',
+          link: '/dao/quests',
+        },
       ],
     },
   ],
