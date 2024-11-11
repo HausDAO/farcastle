@@ -70,6 +70,25 @@ export default defineConfig({
       ],
     },
     {
+      text: 'Frames',
+      collapsed: false,
+      link: '/frames',
+      items: [
+        {
+          text: 'Base',
+          link: '/frames/base',
+        },
+        {
+          text: 'Overview',
+          link: '/frames/overview',
+        },
+        {
+          text: 'Proposals',
+          link: '/frames/proposals',
+        },
+      ],
+    },
+    {
       text: 'The Black Scrolls',
       collapsed: false,
       link: '/scrolls',
