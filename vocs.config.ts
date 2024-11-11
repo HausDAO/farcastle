@@ -39,18 +39,6 @@ export default defineConfig({
       link: '/about',
     },
     {
-      text: 'Channels',
-      link: '/channels',
-    },
-    {
-      text: 'Groups',
-      link: '/groups',
-    },
-    {
-      text: 'Accounts',
-      link: '/accounts',
-    },
-    {
       text: 'Map',
       link: '/map',
     },
@@ -61,6 +49,44 @@ export default defineConfig({
     {
       text: 'Values',
       link: '/values',
+    },
+    {
+      text: 'Community',
+      collapsed: false,
+      link: '/community',
+      items: [
+        {
+          text: 'Channels',
+          link: '/community/channels',
+        },
+        {
+          text: 'Groups',
+          link: '/community/groups',
+        },
+        {
+          text: 'Accounts',
+          link: '/community/accounts',
+        },
+      ],
+    },
+    {
+      text: 'Frames',
+      collapsed: false,
+      link: '/frames',
+      items: [
+        {
+          text: 'Base',
+          link: '/frames/base',
+        },
+        {
+          text: 'Overview',
+          link: '/frames/overview',
+        },
+        {
+          text: 'Proposals',
+          link: '/frames/proposals',
+        },
+      ],
     },
     {
       text: 'The Black Scrolls',

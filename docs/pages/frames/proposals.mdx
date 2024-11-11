@@ -1,0 +1,56 @@
+# Proposals
+
+The Active Proposals view provides an intent to Votes, view Details on DAOhaus Admin, see the Next active proposal, or return Home to the [Overview](/frames/overview) frame. If there are multiple active proposals this frame may also contain a Back intent that takes you to the previous proposal.
+
+<img src="/images/active.png" width="600px" />
+
+### View
+
+You may also directly cast a proposal.
+
+- Structure: `https://frames.farcastle.net/molochv3/:chainid/:daoid/proposals/:proposalid`
+- Example: `https://frames.farcastle.net/molochv3/0xa/0x2a244bb4ccd4eb0897cf61e0c61963e1e1d161e3/proposals/9`
+
+This frame can be casted from the Proposal Details view in DAOhaus Admin. The Cast button will dynamically generate the embed URL. The URL may also be pasted into a new cast to display the frame.
+
+### Vote
+
+The Votes intent on the Proposals frame allows members of the DAO to vote.
+
+<img src="/images/vote.png" width="600px" />
+
+The vote view allows you to cast your vote for a proposal. It also contains intents for proposal Details that takes you to DAOhaus Admin and Back that returns to the Proposal frame.
+
+Clicking the Yes or No intent fires off a transaction in the connected wallet.
+
+When the transaction succeeds you will see "Tranaction Sent"
+
+<img src="/images/sent.png" width="300px" />
+
+Clicking continue displays the Success view
+
+<img src="/images/success.png" width="600px" />
+
+If you do not have voting tokens in the DAO, clicking the Yes or No intent fires off a transaction in the connected wallet that will fail.
+
+<img src="/images/failed.png" width="300px" />
+
+### Execute
+
+After a proposals grace period has ended the Execute intent on the Proposals frame allows members of the DAO to execute the proposal.
+
+<img src="/images/execute.png" width="600px" />
+
+Clicking the Execute intent fires off the transaction associated with the proposal from the connected wallet.
+
+When the transaction succeeds you will see "Tranaction Sent"
+
+<img src="/images/sent.png" width="300px" />
+
+Clicking continue displays the Success view
+
+<img src="/images/executed.png" width="600px" />
+
+If you do not have voting tokens in the DAO, clicking the Execute intent fires off a transaction in the connected wallet that will fail.
+
+<img src="/images/failed.png" width="300px" />
