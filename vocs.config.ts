@@ -3,6 +3,7 @@ import { defineConfig } from 'vocs';
 export default defineConfig({
   title: 'Farcastle',
   logoUrl: '/images/alice-blue-castle.svg',
+  topNav: [{ text: 'About', link: '/about', match: '/about' }],
   socials: [
     {
       icon: 'warpcast',
@@ -75,10 +76,6 @@ export default defineConfig({
       link: '/frames',
       items: [
         {
-          text: 'Base',
-          link: '/frames/base',
-        },
-        {
           text: 'Overview',
           link: '/frames/overview',
         },
@@ -103,10 +100,6 @@ export default defineConfig({
       text: 'DAO',
       collapsed: true,
       items: [
-        {
-          text: 'Roles',
-          link: '/dao/roles',
-        },
         {
           text: 'Needs',
           link: '/dao/needs',
