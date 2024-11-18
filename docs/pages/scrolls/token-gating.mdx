@@ -2,14 +2,35 @@
 
 Mystical gateways that govern access to the most sacred channels. Here, guardians of the realm wield powerful tokens as keys, granting passage to those deemed worthy. Each token imbues unique properties and empower moderators to curate their communities.
 
-## ModBot
+Warpcast channel access is managed by moderators:
 
-Enchanted automaton designed to moderate and manage content in channels. ModBot helps maintain community standards while allowing caretakers to focus on engagement and interactions. It stands as a vigilant sentinel, ever watchful over the sanctity of communities.
+- Owners can invite members and promote them to moderators
+- Moderators can invite other members
 
-### Use Moloch DAO Tokens to Gate Your Channel
+The following tools provide automation around invite flows by making a bot your channel a moderator to check token balances before inviting members.
 
-#### Resources
+## Note on DAO Tokens
 
-#### Assumptions
+While the tools included here include criteria for invite automation, this guide outlines how to set them up using ERC-20 Moloch DAO tokens. This could also be done with an NFT or other token.
 
-#### How To
+Moloch DAOs are a two token system and either can be used for gating a channel.
+
+- **Voting Tokens** (shares) confer voting rights and a proportional ownership stake in the DAO's treasury.
+  Tokens that
+- **Non-Voting Tokens** (loot) provide a proportional ownership stake in the DAO's treasury but do not offer voting rights.
+
+Learn more about Moloch DAO tokens in the DAOhaus docs:
+
+- [User Guide](https://guide.daohaus.club/)
+- [Developers Docs](https://docs.daohaus.club/contracts/membership)
+
+DAO token addresses are found in the DAOhaus Admin contract settings for your DAO.
+
+Example [settings](https://admin.daohaus.fun/#/molochv3/0xa/0x2a244bb4ccd4eb0897cf61e0c61963e1e1d161e3/settings):
+
+<img src="/images/contracts.png" width="600px" />
+
+## Recommended Implementation
+
+- Set-up and pin a [ModBot 'Join' Frame](/scrolls/modbot) to your channel for users to request invites and learn about the token needed to join.
+- Set-up [Cura Auto Invites](/scrolls/cura) to run in the background and send invites to potential members without them needing to find your channel first.
