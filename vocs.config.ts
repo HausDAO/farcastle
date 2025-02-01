@@ -1,161 +1,165 @@
-import { defineConfig } from 'vocs';
+import { defineConfig } from "vocs";
 
 export default defineConfig({
-  title: 'Farcastle',
-  logoUrl: '/images/alice-blue-castle.svg',
-  topNav: [{ text: 'About', link: '/about', match: '/about' }],
+  title: "Farcastle",
+  logoUrl: "/images/alice-blue-castle.svg",
+  topNav: [{ text: "About", link: "/about", match: "/about" }],
   socials: [
     {
-      icon: 'warpcast',
-      link: 'https://warpcast.com/~/channel/farcastle',
+      icon: "warpcast",
+      link: "https://warpcast.com/~/channel/farcastle",
     },
     {
-      icon: 'github',
-      link: 'https://github.com/HausDAO/farcastle-frames',
+      icon: "github",
+      link: "https://github.com/HausDAO/farcastle-frames",
     },
   ],
-  description: 'Turn a Warpcast channel into a DAO',
+  description: "Turn a Warpcast channel into a DAO",
   ogImageUrl: {
-    '/': '/images/preview.png',
+    "/": "/images/preview.png",
   },
   theme: {
-    accentColor: '#00B1CC',
+    accentColor: "#00B1CC",
     variables: {
       color: {
         background: {
-          light: '#EAF8FF',
-          dark: '#341A34',
+          light: "#EAF8FF",
+          dark: "#341A34",
         },
       },
     },
   },
   font: {
     default: {
-      google: 'VT323',
+      google: "VT323",
     },
   },
   sidebar: [
     {
-      text: 'About',
-      link: '/about',
+      text: "About",
+      link: "/about",
     },
     {
-      text: 'Map',
-      link: '/map',
+      text: "Map",
+      link: "/map",
     },
     {
-      text: 'Vision',
-      link: '/vision',
+      text: "Vision",
+      link: "/vision",
     },
     {
-      text: 'Values',
-      link: '/values',
+      text: "Values",
+      link: "/values",
     },
     {
-      text: 'Community',
+      text: "Community",
       collapsed: false,
-      link: '/community',
+      link: "/community",
       items: [
         {
-          text: 'Channels',
-          link: '/community/channels',
+          text: "Channels",
+          link: "/community/channels",
         },
         {
-          text: 'Groups',
-          link: '/community/groups',
+          text: "Groups",
+          link: "/community/groups",
         },
         {
-          text: 'Accounts',
-          link: '/community/accounts',
+          text: "Accounts",
+          link: "/community/accounts",
+        },
+        {
+          text: "Stats",
+          link: "/community/stats",
         },
       ],
     },
     {
-      text: 'Frames',
+      text: "Frames",
       collapsed: false,
-      link: '/frames',
+      link: "/frames",
       items: [
         {
-          text: 'Overview',
-          link: '/frames/overview',
+          text: "Overview",
+          link: "/frames/overview",
         },
         {
-          text: 'Proposals',
-          link: '/frames/proposals',
+          text: "Proposals",
+          link: "/frames/proposals",
         },
       ],
     },
     {
-      text: 'The Black Scrolls',
+      text: "The Black Scrolls",
       collapsed: false,
-      link: '/scrolls',
+      link: "/scrolls",
       items: [
         {
-          text: 'Token Gating Channnels',
-          link: '/scrolls/token-gating',
+          text: "Token Gating Channnels",
+          link: "/scrolls/token-gating",
         },
       ],
     },
     {
-      text: 'DAO',
+      text: "DAO",
       collapsed: true,
       items: [
         {
-          text: 'Needs',
-          link: '/dao/needs',
+          text: "Needs",
+          link: "/dao/needs",
         },
         {
-          text: 'Quests',
-          link: '/dao/quests',
+          text: "Quests",
+          link: "/dao/quests",
         },
         {
-          text: 'Roles',
-          link: '/dao/roles',
+          text: "Roles",
+          link: "/dao/roles",
         },
       ],
     },
   ],
   sponsors: [
     {
-      name: 'Grants',
+      name: "Grants",
       height: 120,
       items: [
         [
           {
-            name: 'DAOhaus',
-            link: 'https://daohaus.club/',
-            image: '/images/daohaus.svg',
+            name: "DAOhaus",
+            link: "https://daohaus.club/",
+            image: "/images/daohaus.svg",
           },
         ],
       ],
     },
     {
-      name: 'Allies',
+      name: "Allies",
       height: 60,
       items: [
         [
           {
-            name: 'Hats',
-            link: 'https://www.hatsprotocol.xyz/',
-            image: '/images/hats.svg',
+            name: "Hats",
+            link: "https://www.hatsprotocol.xyz/",
+            image: "/images/hats.svg",
           },
           {
-            name: 'Tavern',
-            link: 'https://tavern.fm/',
-            image: '/images/tavern.svg',
+            name: "Tavern",
+            link: "https://tavern.fm/",
+            image: "/images/tavern.svg",
           },
         ],
       ],
     },
     {
-      name: 'Accelerators',
+      name: "Accelerators",
       height: 120,
       items: [
         [
           {
-            name: 'Octant',
-            link: 'https://octant.app/',
-            image: '/images/octant.svg',
+            name: "Octant",
+            link: "https://octant.app/",
+            image: "/images/octant.svg",
           },
         ],
       ],
