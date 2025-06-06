@@ -80,3 +80,7 @@ p {
   color: #00b1cc;
   font-size: 24px;
 }
+
+td:first-child, th:first-child {
+  white-space: nowrap;
+}
